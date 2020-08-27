@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Bot package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yggdrasil.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfYing/my-bot.git"
+  },
+  "author": "OfYing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfYing/my-bot/issues"
+  },
+  "homepage": "https://github.com/OfYing/my-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-wit": "^5.0.0"
+  }
+}
